@@ -9,7 +9,7 @@ class FMPCompanyQuoteRequest implements CompanyQuoteRequestInterface
     public function rules()
     {
         return [
-            'symbol' => 'required|string|alpha_num',
+            'symbol' => 'required|min:3|string|alpha_num',
         ];
     }
 }

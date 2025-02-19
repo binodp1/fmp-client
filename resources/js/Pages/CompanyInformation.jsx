@@ -3,7 +3,6 @@ import SymbolInput from "@/Components/SymbolInput";
 import AuthenticatedLayout from "@/Layouts/AuthenticatedLayout";
 import { Inertia } from "@inertiajs/inertia";
 import { Head, usePage } from "@inertiajs/react";
-import { useEffect, useState } from "react";
 
 export default function CompanyInformation({ auth }) {
     const { errors, data } = usePage().props;
